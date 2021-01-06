@@ -7,8 +7,9 @@ using System.Linq;
 [System.Serializable]
 public class AIObjects
 {
-    // Declare variables
+    // The name of the individual spawn group
     public string AIGroupName { get { return m_aiGroupName; } }
+    // The 3D model to be used for spawning
     public GameObject objectPrefab { get { return m_prefab; } }
     public int maxAI { get { return m_maxAI; } }
     public int spawnRate { get { return m_spawnRate; } }
