@@ -36,7 +36,7 @@ public class AIMove : MonoBehaviour
     void SetUpNPC()
     {
         // Randomly scale each NPC
-        float m_scale = Random.Range(0f, 0.02f);
+        float m_scale = Random.Range(0f, 1.5f);
         transform.localScale += new Vector3(m_scale * 1.5f, m_scale, m_scale);
     }
 
@@ -85,7 +85,7 @@ public class AIMove : MonoBehaviour
         _rBody.useGravity = true;
     }
 
-    private bool CanFindTarget(float start = 1f, float end = 7f)
+    private bool CanFindTarget(float start = 0.5f, float end = 1f)
     {
         _wayPoint = _AIManager.RandomWaypoint();
         // Make sure we don't set the same waypoint twice

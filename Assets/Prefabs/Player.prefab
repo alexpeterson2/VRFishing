@@ -752,9 +752,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabSpeed: 10
   teleport: 0
-  rayCastPosition: {fileID: 39407878638031187}
+  rayCastPosition: {fileID: 39754273742818099}
   otherHandObj: {fileID: 38815787367834024}
-  controller: 32
+  controller: 1
   snapPositions:
   - {fileID: 37852068306436821}
   grabbedItem: {fileID: 0}
@@ -822,15 +822,15 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 0, b: 0, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
+      ctime0: 193
       ctime1: 65535
       ctime2: 0
       ctime3: 0
@@ -871,9 +871,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabSpeed: 10
   teleport: 0
-  rayCastPosition: {fileID: 39625066462403726}
+  rayCastPosition: {fileID: 40391491222124520}
   otherHandObj: {fileID: 38815786862402135}
-  controller: 64
+  controller: 2
   snapPositions:
   - {fileID: 42992719521542918}
   grabbedItem: {fileID: 0}
@@ -994,6 +994,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1661916590914096, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_TagString
+      value: Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394205987547574, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
 --- !u!1 &38815786862402135 stripped
@@ -1008,15 +1016,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 38815786862537571}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &39407878638031187 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1661916590914096, guid: e6ba3498ffa1e534b91a07264266e6b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 38815786862537571}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &37852068306436821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4394205987547574, guid: e6ba3498ffa1e534b91a07264266e6b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 38815786862537571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &39754273742818099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1366201299165264, guid: e6ba3498ffa1e534b91a07264266e6b8,
     type: 3}
   m_PrefabInstance: {fileID: 38815786862537571}
   m_PrefabAsset: {fileID: 0}
@@ -1075,6 +1083,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 1442599974930044, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
+      propertyPath: m_TagString
+      value: Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 4885569569827316, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
 --- !u!1 &38815787367834024 stripped
@@ -1089,15 +1105,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 38815787367946994}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &39625066462403726 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1442599974930044, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
-    type: 3}
-  m_PrefabInstance: {fileID: 38815787367946994}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &42992719521542918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4885569569827316, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
+    type: 3}
+  m_PrefabInstance: {fileID: 38815787367946994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &40391491222124520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1857178881256730, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
     type: 3}
   m_PrefabInstance: {fileID: 38815787367946994}
   m_PrefabAsset: {fileID: 0}
